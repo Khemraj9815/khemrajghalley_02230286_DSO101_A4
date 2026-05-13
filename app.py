@@ -8,7 +8,7 @@ app = Flask(__name__)
 def home():
     """Home endpoint - returns a welcome message"""
     return jsonify({
-        'message': 'This is CI/CD Pipeline demo app',
+        'message': 'Welcome to CI/CD Pipeline Demo App',
         'status': 'success',
         'timestamp': datetime.now().isoformat()
     }), 200
