@@ -36,7 +36,7 @@ class TestHomeEndpoint:
         """Test that home endpoint returns correct message"""
         response = client.get('/')
         data = json.loads(response.data)
-        assert 'CI/CD Pipeline Demo App' in data['message']
+        assert 'This is CI/CD Pipeline demo app' in data['message']
 
 class TestErrorHandling:
     """Tests for error handling"""
