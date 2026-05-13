@@ -31,7 +31,7 @@ jobs:
     - name: Test Report
       if: always()
       run: |
-        echo "✅ All tests passed successfully!"
+        echo "All tests passed successfully!"
         echo "Build Status: SUCCESS"
     
     - name: Deploy message

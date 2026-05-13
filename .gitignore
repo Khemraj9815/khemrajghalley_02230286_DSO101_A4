@@ -139,3 +139,5 @@ Thumbs.db
 
 # add some md file that re not required for the project
 *.md
+
+FINAL_INSTRUCTIONS.txt
